@@ -7,8 +7,6 @@ var updateDay = () => {
     currentDay.textContent = day;
 }
 
-
-
 $(document).ready(function() {
 
     var $8am  = $("#8")
@@ -19,7 +17,6 @@ $(document).ready(function() {
     var $1pm  = $("#13")
     var $2pm  = $("#14")
     var $3pm  = $("#15")
-    var $4pm  = $("#16")
 
     $('input').each(function () {
         let meetingTime = parseInt($(this).attr('id'));
